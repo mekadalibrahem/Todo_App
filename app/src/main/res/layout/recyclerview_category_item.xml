@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="43dp"
+    android:orientation="horizontal"
+    android:paddingHorizontal="10dp">
+
+    <TextView
+        android:id="@+id/review_item_tv_name"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_weight="7"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/review_item_btn_delete"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_red"
+        android:contentDescription="@string/delete"
+        android:src="@android:drawable/ic_menu_delete"
+        android:visibility="visible"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/review_item_btn_update"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_weight="1"
+        android:background="@color/design_default_color_primary"
+
+        android:contentDescription="@string/edit"
+        android:src="@android:drawable/ic_menu_edit"
+        android:visibility="visible"
+        tools:ignore="TouchTargetSizeCheck" />
+</LinearLayout>
