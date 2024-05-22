@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قائمة المهام</string>
+    <string name="copy">نسخ</string>
+    <string name="edit">تعديل</string>
+
+    <string name="delete">حذف</string>
+    <string name="new_task">مهمة جديدة   </string>
+    <string name="reminder_set_c"> المهمات</string>
+
+    <string name="notification_title">Reminder</string>
+    <string name="title">العنوان</string>
+    <string name="save">حفظ</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
+    <string name="setting" >الإعدادت</string>
+    <string name="category">الفئة</string>
+    <string name="cancel" >
+        الغاء
+    </string>
+    <string name="msg_task_insert_done" >
+        تم حفظ المهمة بنجاح
+    </string>
+    <string name="msg_empty_data" >
+        يجب ملئ البيانات اولاً
+    </string>
+    <string name="This_field_is_required" >
+      هذا الحقل مطلوب
+    </string>
+    <string name="add_reminder" > إضافة تذكير جديد </string>
+    <string name="error_insert" > لم يتم حفظ العنصر حاول مجددا </string>
+    <string name="msg_newCategory_saved" >
+       تم حفظ المجموعة الجديدة
+    </string>
+    <string name="confirm_title" > تاكيد </string>
+    <string name="msg_confirm_delete_item" >
+        هل انت متاكد من انك تريد حذف هذا العنصر
+    </string>
+    <string name="msg_delete_item">تم حذف العنصر</string>
+    <string name="update_category_title">تعديل اسم المجموعة</string>
+    <string name="msg_update_item" > تم حفظ التغيرات </string>
+</resources>
